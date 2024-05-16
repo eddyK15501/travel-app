@@ -22,6 +22,9 @@ const Navbar = () => {
           );
         })}
       </ul>
+      <div className="lg:flex lg:justify-center hidden">
+        <button>TEMP</button>
+      </div>
     </nav>
   );
 };
