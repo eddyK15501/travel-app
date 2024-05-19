@@ -10,7 +10,7 @@ const Hero = () => {
           alt='Camp'
           width={50}
           height={50}
-          className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
+          className='absolute left-[-5px] top-[-30px] w-10'
         />
         <h1 className='bold-52 lg:bold-88'>Pepe Meme Coin Area</h1>
         <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
@@ -19,7 +19,7 @@ const Hero = () => {
           trends, our app provides tailored recommendations and insights to make
           your journey unforgettable.
         </p>
-        <div className='my-11 flex flex-wrap gap-5'>
+        <div className='my-11 flex flex-wrap items-center gap-5'>
           <div className='flex items-center gap-2'>
             {Array(5)
               .fill(0)
@@ -33,6 +33,9 @@ const Hero = () => {
                 />
               ))}
           </div>
+          <p className='bold-14 text-blue-70 text-sm'>
+            200k <span className='regular-14 ml-0.5'>Excellent Reviews</span>
+          </p>
         </div>
       </div>
     </section>
