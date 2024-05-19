@@ -19,6 +19,21 @@ const Hero = () => {
           trends, our app provides tailored recommendations and insights to make
           your journey unforgettable.
         </p>
+        <div className='my-11 flex flex-wrap gap-5'>
+          <div className='flex items-center gap-2'>
+            {Array(5)
+              .fill(0)
+              .map((_, i) => (
+                <Image
+                  src='/star.svg'
+                  alt='Star'
+                  key={i}
+                  width={24}
+                  height={24}
+                />
+              ))}
+          </div>
+        </div>
       </div>
     </section>
   );
