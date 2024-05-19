@@ -42,7 +42,10 @@ const Hero = () => {
         <div className='flex w-full gap-3 sm:flex-row items-center'>
           <Button type='button' title='Download App' variant='btn_green' />
           <div className='font-semibold'>
-            <a href='https://giphy.com/gifs/paramountmovies-matthew-mcconaughey-wolf-of-wall-street-chest-thump-gdwJdym3VuXQr5OfAc' target='_blank'>
+            <a
+              href='https://giphy.com/gifs/paramountmovies-matthew-mcconaughey-wolf-of-wall-street-chest-thump-gdwJdym3VuXQr5OfAc'
+              target='_blank'
+            >
               <Button
                 type='button'
                 title='What is this?'
@@ -50,6 +53,23 @@ const Hero = () => {
                 variant='btn_white_text'
               />
             </a>
+          </div>
+        </div>
+      </div>
+      <div className='relative flex flex-1 items-start'>
+        <div className='relative z-20 w-[258px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8'>
+          <div className='flex flex-col'>
+            <div className='flexBetween'>
+              <p className='regular-16 text-gray-20'>Location</p>
+              <Image src='/close.svg' alt='close' width={24} height={24} />
+            </div>
+            <p className='regular-20 text-white'>Pump Land</p>
+          </div>
+          <div className='flexBetween'>
+            <div className='flex-flex-col'>
+              <p className='regular-16 block text-gray-20'>Distance</p>
+              <p className='bold-20 text-white'>420.69 mi</p>
+            </div>
           </div>
         </div>
       </div>
