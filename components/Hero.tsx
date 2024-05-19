@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import Button from './Button';
+
 const Hero = () => {
   return (
     <section className='flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row max-container padding-container'>
@@ -36,6 +38,19 @@ const Hero = () => {
           <p className='bold-14 text-blue-70 text-sm'>
             200k <span className='regular-14 ml-0.5'>Excellent Reviews</span>
           </p>
+        </div>
+        <div className='flex w-full gap-3 sm:flex-row items-center'>
+          <Button type='button' title='Download App' variant='btn_green' />
+          <div className='font-semibold'>
+            <a href='https://giphy.com/gifs/paramountmovies-matthew-mcconaughey-wolf-of-wall-street-chest-thump-gdwJdym3VuXQr5OfAc' target='_blank'>
+              <Button
+                type='button'
+                title='What is this?'
+                icon='/play.svg'
+                variant='btn_white_text'
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>

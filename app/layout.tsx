@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Travel App',
+  title: 'Pepe Travel App',
   description: 'Find your next camping destination',
 };
 
