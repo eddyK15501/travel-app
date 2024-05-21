@@ -7,7 +7,7 @@ interface CampProps {
 
 const CampSite = ({ bgImage, title, subtitle, peopleJoined }: CampProps) => {
   return(
-    <div>
+    <div className={`w-full h-full min-w-[1100px] ${bgImage} bg-cover`}>
       CampSite Component
     </div>
   )
