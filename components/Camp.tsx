@@ -57,8 +57,14 @@ const Camp = () => {
         <CampSite
           bgImage='bg-bg-img-1'
           title='Pepe Camp'
-          subtitle='Pump Land, USA'
+          subtitle='Bonk Land, USA'
           peopleJoined='2800+ joined'
+        />
+        <CampSite
+          bgImage='bg-bg-img-2'
+          title='Dogwifhat Camp'
+          subtitle='Somewhere in the Woods'
+          peopleJoined='300+ joined'
         />
       </div>
     </section>
