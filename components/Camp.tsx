@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface CampProps {
   bgImage: string;
   title: string;
@@ -7,8 +9,14 @@ interface CampProps {
 
 const CampSite = ({ bgImage, title, subtitle, peopleJoined }: CampProps) => {
   return(
-    <div className={`w-full h-full min-w-[1100px] ${bgImage} bg-cover`}>
-      CampSite Component
+    <div className={`w-full h-full min-w-[1100px] ${bgImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+      <div className='flex flex-col justify-between items-start p-6 lg:px-20 lg:py-10 h-full'>
+        <div className='flexCenter gap-4'>
+          <div className='rounded-full bg-green-50 p-4'>
+            <Image src='/folded-map.svg' alt='Map Icon' width={28} height={28} />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
