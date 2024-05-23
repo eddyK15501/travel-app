@@ -1,3 +1,4 @@
+import { PEOPLE_URL } from '@/constants';
 import Image from 'next/image';
 
 interface CampProps {
@@ -26,6 +27,23 @@ const CampSite = ({ bgImage, title, subtitle, peopleJoined }: CampProps) => {
             <h4 className='bold-18 text-white'>{title}</h4>
             <p className='regular-14 text-white'>{subtitle}</p>
           </div>
+        </div>
+        <div className='flexCenter gap-6'>
+          <span className='flex -space-x-4 overflow-hidden'>
+            {PEOPLE_URL.map((url) => {
+              return (
+                <Image
+                  src={url}
+                  alt='Person Icon'
+                  className='inline-block w-10 h-10 rounded-full'
+                  width={52}
+                  height={52}
+                  key={url}
+                />
+              );
+            })}
+          </span>
+          <p className='bold-14 md:bold-16 text-white'>{peopleJoined}</p>
         </div>
       </div>
     </div>
