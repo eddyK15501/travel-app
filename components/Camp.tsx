@@ -18,7 +18,7 @@ const CampSite = ({ bgImage, title, subtitle, peopleJoined }: CampProps) => {
           <div className='rounded-full bg-green-50 p-4'>
             <Image
               src='/folded-map.svg'
-              alt='Map Icon'
+              alt='map-icon'
               width={28}
               height={28}
             />
@@ -34,7 +34,7 @@ const CampSite = ({ bgImage, title, subtitle, peopleJoined }: CampProps) => {
               return (
                 <Image
                   src={url}
-                  alt='Person Icon'
+                  alt='person-icon'
                   className='inline-block w-10 h-10 rounded-full'
                   width={52}
                   height={52}
@@ -78,6 +78,7 @@ const Camp = () => {
             hike can provide the perfect opportunity to reflect, recharge, and
             gain perspective.
           </p>
+          <Image src='/quote.svg' alt='banner-bg-img' />
         </div>
       </div>
     </section>

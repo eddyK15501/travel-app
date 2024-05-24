@@ -9,7 +9,7 @@ const Hero = () => {
       <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
         <Image
           src='/camp.svg'
-          alt='Camp'
+          alt='camp'
           width={50}
           height={50}
           className='absolute left-[-5px] top-[-30px] w-10'
@@ -28,7 +28,7 @@ const Hero = () => {
               .map((_, i) => (
                 <Image
                   src='/star.svg'
-                  alt='Star'
+                  alt='star'
                   key={i}
                   width={24}
                   height={24}

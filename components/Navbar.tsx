@@ -11,7 +11,7 @@ const Navbar = () => {
       <Link href='/'>
         <Image
           src='/pepe.svg'
-          alt='Pepe Logo'
+          alt='pepe-logo'
           width={70}
           height={60}
           priority={true}
@@ -40,7 +40,7 @@ const Navbar = () => {
       </div>
       <Image
         src='/menu.svg'
-        alt='Menu'
+        alt='menu'
         width={32}
         height={32}
         className='inline-block cursor-pointer lg:hidden'
