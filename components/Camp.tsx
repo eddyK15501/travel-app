@@ -78,7 +78,13 @@ const Camp = () => {
             hike can provide the perfect opportunity to reflect, recharge, and
             gain perspective.
           </p>
-          <Image src='/quote.svg' alt='banner-bg-img' />
+          <Image
+            src='/quote.svg'
+            alt='banner-bg-img'
+            width={186}
+            height={219}
+            className='camp-quote'
+          />
         </div>
       </div>
     </section>
