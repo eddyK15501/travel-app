@@ -1,8 +1,9 @@
+import { FEATURES } from '@/constants';
 import Image from 'next/image';
 
 const Features = () => {
   return (
-    <div className='flexCenter flex-col overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24'>
+    <section className='flexCenter flex-col overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24'>
       <div className='max-container padding-container w-full relative justify-end'>
         <div className='flex flex-1 lg:min-h-[900px]'>
           <Image
@@ -24,10 +25,23 @@ const Features = () => {
             />
             <h2 className='bold-40 lg:bold-64'>Our Features</h2>
           </div>
+          <ul>
+            {FEATURES.map((feature) => (
+              <FeatureItem title={feature.title} key={feature.title} />
+            ))}
+          </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
+
+const FeatureItem = ({ title }: any) => {
+  return (
+    <div>
+      {title}
+    </div>
+  )
+}
 
 export default Features;
