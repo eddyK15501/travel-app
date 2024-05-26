@@ -8,7 +8,7 @@ const Guide = () => {
         <p className='uppercase regular-18 -mt-1 mb-3 text-green-50'>
           We Are Here For You
         </p>
-        <div className='flex flex-wrap justify-between gap-5 lg:gap-10'>
+        <div className='flex flex-wrap justify-between items-center gap-5 lg:gap-10'>
           <h2 className='bold-40 lg:bold-64 xl:max-w-[390px]'>
             Join Us For An Easier Path Ahead.
           </h2>
@@ -31,17 +31,24 @@ const Guide = () => {
           className='w-full object-cover object-center 2xl:rounded-5xl'
         />
         <div className='absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20'>
+          <Image
+            src='/meter.svg'
+            alt='track-meter'
+            width={16}
+            height={158}
+            className='h-full w-auto'
+          />
           <div className='flexBetween flex-col'>
             <div className='flex w-full flex-col'>
               <div className='flexBetween w-full'>
                 <p className='regular-16 text-gray-20'>Destination</p>
-                <p className='bold-16 text-green-50'>37 min</p>
+                <p className='regular-16 text-green-50'>37 min</p>
               </div>
-              <p className='bold-20 mt-2'>Pepe Camp</p>
+              <p className='regular-20 mt-2'>Pepe Camp</p>
             </div>
             <div className='flex w-full flex-col'>
               <p className='regular-16 text-gray-20'>Start track</p>
-              <h4 className='bold-20 mt-2 whitespace-nowrap'>
+              <h4 className='regular-20 mt-2 whitespace-nowrap'>
                 Dogwifhat Mountain
               </h4>
             </div>
