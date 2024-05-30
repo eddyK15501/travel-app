@@ -1,8 +1,8 @@
-import React from 'react'
-
 const Download = () => {
   return (
-    <div>Download</div>
+    <section className="flexCenter w-full flex-col pb-[100px]">
+      <div className="get-app"></div>
+    </section>
   )
 }
 
