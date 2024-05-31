@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Button from './Button';
 
 const Download = () => {
@@ -11,22 +12,25 @@ const Download = () => {
           <p className='regular-16 text-gray-10'>
             Available on iOS and Android. Check it out.
           </p>
-          <div>
+          <div className='flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row'>
             <Button
               type='button'
-              title='Download App'
+              title='App Store'
               icon='/apple.svg'
               variant='btn_white'
               full
             />
             <Button
               type='button'
-              title='Download App'
+              title='Play Store'
               icon='/android.svg'
               variant='btn_dark_green_outline'
               full
             />
           </div>
+        </div>
+        <div className='flex flex-1 items-center justify-end'>
+          <Image src='/phones.png' alt='phones' width={550} height={870} />
         </div>
       </div>
     </section>
