@@ -13,7 +13,7 @@ const Footer = () => {
           </Link>
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
             {FOOTER_LINKS.map((col) => (
-              <FooterCol />
+              <FooterCol title={col.title} key={col.title}>Footer Links</FooterCol>
             ))}
           </div>
         </div>
@@ -22,6 +22,18 @@ const Footer = () => {
   )
 }
 
-const FooterCol = () => {}
+type FooterColProps = {
+  title: string;
+  children: React.ReactNode;
+}
+
+const FooterCol = ({ title, children }: FooterColProps) => {
+  return (
+    <div>
+      <h4>{title}</h4>
+      {children}
+    </div>
+  )
+}
 
 export default Footer
