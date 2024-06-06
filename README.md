@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pepe Travel App
 
-## Getting Started
+## Description
+Next.js. TypeScript. TailwindCSS.
 
-First, run the development server:
+## Link to the Deployed Application
+* [Click Here](https://travel-app-w32j.onrender.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Screenshot
+<img src="https://private-user-images.githubusercontent.com/88423414/337455425-baf43557-cfeb-4d27-8bdc-705dfc9bd902.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3MTI5MTYsIm5iZiI6MTcxNzcxMjYxNiwicGF0aCI6Ii84ODQyMzQxNC8zMzc0NTU0MjUtYmFmNDM1NTctY2ZlYi00ZDI3LThiZGMtNzA1ZGZjOWJkOTAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDIyMjMzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzY2E1ZjEwZjM2YTUwMjhkN2I4YjRiMmE4NjM1NDg0NTMzMzM2ZDgwZDc1N2U4NjU4ZGIwZmJjYTg3NzhkNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.IGdBhsJtFIj73BJi26Os8w-9dd0RuhfaElkQVl11LCc" />
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img src="https://private-user-images.githubusercontent.com/88423414/337455484-7a9ad0e7-8ea9-41df-b4be-6a4d489ddf8d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc3MTI5NDEsIm5iZiI6MTcxNzcxMjY0MSwicGF0aCI6Ii84ODQyMzQxNC8zMzc0NTU0ODQtN2E5YWQwZTctOGVhOS00MWRmLWI0YmUtNmE0ZDQ4OWRkZjhkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjA2VDIyMjQwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiYzU4Mzc5MDdjZmI5NzFkNjY5NGI0M2MyZjUzNTk1YzA4NjMyOWIzNzBhODZiYzA1ZDY5OWNkNjQwYjM0NmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.AwlqpgNIakQvC4k4V1j0ZOrMb4bDQUraVsPtZF38BY8" />
