@@ -16,10 +16,12 @@ const Hero = () => {
         />
         <h1 className='bold-52 lg:bold-88'>Pepe Meme Coin Area</h1>
         <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>
-          Whether you're exploring meme-filled streets, hunting for the perfect
-          selfie spot with Pepe, or immersing yourself in the latest crypto
-          trends, our app provides tailored recommendations and insights to make
-          your journey unforgettable.
+          Amidst the chaotic waves of meme coin losses, it's time for a
+          refreshing escape. Embark on a journey with us to explore new
+          horizons, discover serenity away from the frenzy of pump and dumps,
+          and gain valuable insights to steer your financial ship towards calmer
+          waters. Our app is your compass, guiding you towards a trip that
+          rejuvenates both your spirit and your portfolio.
         </p>
         <div className='my-11 flex flex-wrap items-center gap-5'>
           <div className='flex items-center gap-2'>
